@@ -70,16 +70,41 @@ class FirstAppState extends State<FirstApp> {
                     return new FlatButton(
                       padding: new EdgeInsets.all(0.0),
                       child: new VideoCell(video),
-                      onPressed: (){
-                        print(("Video cell is tapped"));
+                      onPressed: () {
+                        print(("Video cell is tapped $i"));
+                        Navigator.push(
+                            context,
+                            new MaterialPageRoute(
+                                builder: (context) =>
+                                    new DetailPage()
+                            )
+                        );
                       },
                     );
-                    return new VideoCell(video);
+                    //return new VideoCell(video);
 
                     //return new Text("Row: $i");
                   },
                 ),
         ),
+      ),
+    );
+  }
+}
+
+
+
+class DetailPage extends StatelessWidget{
+
+  @override
+  Widget build(BuildContext context) {
+    
+    return new Scaffold(
+      appBar: new AppBar(
+        title: new Text("Detail Page"),
+      ),
+      body: new Center(
+        child: new Text("Not the best thing, about detail detail"),
       ),
     );
   }
