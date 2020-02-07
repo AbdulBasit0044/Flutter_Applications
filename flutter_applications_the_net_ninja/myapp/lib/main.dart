@@ -1,5 +1,6 @@
 import 'dart:ui';
 
+import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MaterialApp(
@@ -16,11 +17,24 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.deepOrange[600],
       ),
-      body: Center(
-        child: Image(
-          image: AssetImage('assets/image.jpg'),
-        )
-
+      body: Row(
+        children: <Widget>[
+          Container(
+            padding: EdgeInsets.all(30.0),
+            color: Colors.cyan,
+            child: Text('1'),
+          ),
+          Container(
+            padding: EdgeInsets.all(30.0),
+            color: Colors.blue,
+            child: Text('2'),
+          ),
+          Container(
+            padding: EdgeInsets.all(30.0),
+            color: Colors.amber,
+            child: Text('3'),
+          ),
+        ],
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: (){},
