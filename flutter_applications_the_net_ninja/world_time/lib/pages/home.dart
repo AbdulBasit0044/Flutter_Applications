@@ -40,7 +40,7 @@ class _HomeState extends State<Home> {
                   ),
                 ],
               ),
-              SizedBox(height: 20.0),
+              SizedBox(height: 22.0),
               Text(
                 data['time'],
                 style: TextStyle(
