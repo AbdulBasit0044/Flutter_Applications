@@ -6,4 +6,6 @@ class Question {
     questionText = q;
     questionAnswer = a;
   }
+
+  //Question(this.questionText, this.questionAnswer);//OR THIS CONSTRUCTOR CAN ALSO WORK
 }
