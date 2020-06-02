@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "751611015530",
+    "firebase_url": "https://speakup-25b6d.firebaseio.com",
+    "project_id": "speakup-25b6d",
+    "storage_bucket": "speakup-25b6d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:751611015530:android:b7e0964bbf8474dc6bf513",
+        "android_client_info": {
+          "package_name": "com.abdulbasit0044.speakup"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "751611015530-62o1csvu5ptgvvm8ldf8fdtsl6f67v76.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDM6ACcizJZK0enFNOLcn_zSX5jZcmMCgo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "751611015530-62o1csvu5ptgvvm8ldf8fdtsl6f67v76.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
